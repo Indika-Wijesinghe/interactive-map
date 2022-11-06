@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poller+One&text=1234567890PpAaris%20ondsmet%26);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@400;500;600&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   background: #cfd1de;
 }
@@ -16,7 +16,7 @@ svg {
 }
 
 #arrondissements text {
-  font-family: "Poller One", "Arial black", arial;
+  font-family: "Poppins", "sans-serif";
   font-size: 20px;
   font-weight: bold;
   fill: #585858;
@@ -31,7 +31,9 @@ h1 {
   margin-bottom: 7em;
 }
 
-header.page-title a:after, header.page-title a:before, header.page-title a {
+header.page-title a:after,
+header.page-title a:before,
+header.page-title a {
   transition: all linear 0.3s;
 }
 
@@ -81,4 +83,4 @@ header.page-title a:hover:after {
 }
 header.page-title a:hover:before {
   transform: translateY(-3px);
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
